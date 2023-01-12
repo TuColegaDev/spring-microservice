@@ -14,7 +14,14 @@ Es posible ejecutar el ejemplo a través de Docker con el comando:
 ``` 
 > La imagen no está optimizada y es posible que ocupe alrededor de 500MB
 
-Por ello se recomienda su ejecución a través de un IDE como IntelliJ, Eclipse o NetBeans.
+Por ello se recomienda la ejecución de la aplicación a través de un IDE como IntelliJ, Eclipse o NetBeans.
+
+## Variables de entorno
+
+```environment
+server.port = <Puerto de la aplicacion>
+server.base.url = <Url del servicio a conectar por Rest>
+```
 
 ## Arquitectura
 
